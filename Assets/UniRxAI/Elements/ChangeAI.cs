@@ -12,7 +12,7 @@ namespace HK.UniRxAI
         [SerializeField]
         private string nextAIName = default;
 
-        public override void Enter<T>(T owner, AIObserver ownerAI)
+        public override void Enter<T>(T owner, AIController ownerAI)
         {
             base.Enter(owner, ownerAI);
             

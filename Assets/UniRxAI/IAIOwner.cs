@@ -10,6 +10,6 @@ namespace HK.UniRxAI
     {
         IObservable<Unit> UpdateAsObservable();
 
-        AIObserver GetAIController();
+        AIController GetAIController();
     }
 }

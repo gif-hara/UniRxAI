@@ -7,7 +7,7 @@ namespace HK.UniRxAI
     /// <summary>
     /// AIを監視して適宜AIを切り替えるクラス
     /// </summary>
-    public sealed class AIObserver : MonoBehaviour
+    public sealed class AIController : MonoBehaviour
     {
         [SerializeField]
         private AIBundle aiBundle = default;
