@@ -38,7 +38,7 @@ namespace HK.UniRxAI
             this.currentElements = this.GetAIElements(name);
             foreach (var element in this.currentElements)
             {
-                element.Enter(this.owner, this);
+                element.Enter(this.owner);
             }
         }
 

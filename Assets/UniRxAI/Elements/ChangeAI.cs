@@ -12,14 +12,14 @@ namespace HK.UniRxAI
         [SerializeField]
         private string nextAIName = default;
 
-        public override void Enter<T>(T owner, AIController ownerAI)
+        public override void Enter<T>(T owner)
         {
-            base.Enter(owner, ownerAI);
+            base.Enter(owner);
             
             this.GetObserver(owner)
                 .SubscribeWithState2(this, owner, (_, _this, _owner) =>
                 {
-                    ownerAI.ChangeAI(this.nextAIName);
+                    _owner.GetAIController().ChangeAI(this.nextAIName);
                 })
                 .AddTo(this.events);
         }

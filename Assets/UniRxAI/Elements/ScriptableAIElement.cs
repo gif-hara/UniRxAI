@@ -19,7 +19,7 @@ namespace HK.UniRxAI
 
         protected readonly CompositeDisposable events = new CompositeDisposable();
         
-        public virtual void Enter<T>(T owner, AIController ownerAI) where T : IAIOwner
+        public virtual void Enter<T>(T owner) where T : IAIOwner
         {
             if(this.instanceConditions == null)
             {
