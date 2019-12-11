@@ -6,7 +6,7 @@ namespace HK.UniRxAI
     /// <summary>
     /// AIを切り替えるAI
     /// </summary>
-    [CreateAssetMenu(fileName = "ChangeAI", menuName = "Bright2/AI/Elements/ChangeAI")]
+    [CreateAssetMenu(menuName = "UniRxAI/Elements/ChangeAI")]
     public sealed class ChangeAI : ScriptableAIElement
     {
         [SerializeField]

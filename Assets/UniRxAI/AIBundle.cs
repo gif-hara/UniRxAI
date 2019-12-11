@@ -8,7 +8,7 @@ namespace HK.UniRxAI
     /// <summary>
     /// AIをまとめるクラス
     /// </summary>
-    [CreateAssetMenu(menuName = "Bright2/AI/Bundle")]
+    [CreateAssetMenu(menuName = "UniRxAI/Bundle")]
     public sealed class AIBundle : ScriptableObject
     {
         [SerializeField]

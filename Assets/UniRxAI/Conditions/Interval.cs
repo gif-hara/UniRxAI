@@ -8,7 +8,7 @@ namespace HK.UniRxAI
     /// <summary>
     /// 一定間隔で条件を満たす<see cref="ScriptableAICondition"/>
     /// </summary>
-    [CreateAssetMenu(fileName = "Condition.Interval.asset", menuName = "Bright2/AI/Conditions/Interval")]
+    [CreateAssetMenu(menuName = "UniRxAI/Conditions/Interval")]
     public sealed class Interval : ScriptableAICondition
     {
         [SerializeField]
